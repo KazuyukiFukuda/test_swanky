@@ -1,0 +1,53 @@
+{
+  "node": {
+    "localPath": "/Users/fukudakazuyuki/PrivateWork/AstarHackathon/sundbox/swanky/psp22_test/bin/swanky-node",
+    "polkadotPalletVersions": "polkadot-v0.9.27",
+    "supportedInk": "v3.3.1"
+  },
+  "accounts": [
+    {
+      "alias": "alice",
+      "mnemonic": "//Alice",
+      "isDev": true,
+      "address": "5GrwvaEF5zXb26Fz9rcQpDWS57CtERHpNehXCPcNoHGKutQY"
+    },
+    {
+      "alias": "bob",
+      "mnemonic": "//Bob",
+      "isDev": true,
+      "address": "5FHneW46xGXgs5mUiveU4sbTyGBzmstUspZC92UhjJM694ty"
+    }
+  ],
+  "contracts": {
+    "test": {
+      "name": "test",
+      "deployments": [
+        {
+          "timestamp": 1675573534732,
+          "address": "5DjYY9VP3Q8WWMNpmQUXHY7w3K9XKGJMpDsnhixReoRifR2t",
+          "networkUrl": "ws://127.0.0.1:9944",
+          "deployerAlias": "alice"
+        }
+      ],
+      "language": "ink",
+      "build": {
+        "timestamp": 1675573510447,
+        "artifactsPath": "/Users/fukudakazuyuki/PrivateWork/AstarHackathon/sundbox/swanky/psp22_test/artifacts/test/1675573510447"
+      }
+    }
+  },
+  "networks": {
+    "local": {
+      "url": "ws://127.0.0.1:9944"
+    },
+    "astar": {
+      "url": "wss://rpc.astar.network"
+    },
+    "shiden": {
+      "url": "wss://rpc.shiden.astar.network"
+    },
+    "shibuya": {
+      "url": "wss://rpc.shibuya.astar.network"
+    }
+  }
+}
